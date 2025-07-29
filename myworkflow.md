@@ -27,7 +27,7 @@
 
  ## 3. Docker Compose Networking & Volumes
 
-  -All the three containers run on a common network which is
+  -All the three containers runn on a common network which is
       app-net  ,,,,, and runs on bridge driver as defined in the docker-compose.yaml file
     
                 networks:
@@ -65,9 +65,9 @@
 
 
     
+ ## Screenshots for images ##
 
-
-file:///home/flamescode/Pictures/Screenshots/Screenshot%20from%202025-07-15%2011-13-31.png
+![DockerHub Screenshot](./dockerhubimage.png)
 
 
      
