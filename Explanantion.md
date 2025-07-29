@@ -67,7 +67,7 @@
     
  ## Screenshots for images ##
 
-![DockerHub Screenshot](./dockerhubimage.png)
+![Alt text](dockerhubimage.png)
 
 
      
