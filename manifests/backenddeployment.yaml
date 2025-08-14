@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backenddeployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: backenddeployment
+  template:
+    metadata:
+      labels:
+        app: backenddeployment
+    spec:
+      containers:
+      - name: backenddeployment
+        image: kencehz/yoloclient:v1.0.0
+        ports:
+        - containerPort: 5000

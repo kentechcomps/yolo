@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mydeployment
+  name: frontenddeployment
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: yolodw
+      app: frontendservice
   template:
     metadata:
       labels:
-        app: yolodw
+        app: frontendservice
     spec:
       containers:
-      - name: dw
+      - name: frontendservice
         image: kencehz/yoloclient:v1.0.0
         ports:
         - containerPort: 5000
