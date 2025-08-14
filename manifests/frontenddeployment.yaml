@@ -3,16 +3,17 @@ kind: Deployment
 metadata:
   name: mydeployment
 spec:
+  replicas: 2
   selector:
     matchLabels:
-      app: dw
+      app: yolodw
   template:
     metadata:
       labels:
-        app: dw
+        app: yolodwdw
     spec:
       containers:
       - name: dw
-        image: <Image>
+        image: kencehz/yoloclient:v1.0.0
         ports:
-        - containerPort: <Port>
+        - containerPort: 8000
