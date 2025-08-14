@@ -31,7 +31,7 @@ or
 ![Alt text](dockerhubimage.png)
 
 
-  ## 1. CHOICE OF IMAGE
+  CHOICE OF IMAGE
 
    # Frontend (React) kencehz/yoloclient:v1.0.0
 
