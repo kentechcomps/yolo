@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: yolodwdw
+        app: yolodw
     spec:
       containers:
       - name: dw
         image: kencehz/yoloclient:v1.0.0
         ports:
-        - containerPort: 8000
+        - containerPort: 5000
